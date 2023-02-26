@@ -13,6 +13,8 @@
   <ItemGroup>
     <PackageReference Include="AspNetCore.IQueryable.Extensions" Version="7.0.0" />
     <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 ﻿using AuthenticationAPI.Domain.Base;
+using AuthenticationAPI.Domain.Enums;
 
 namespace AuthenticationAPI.Domain.Entities
 {
@@ -7,6 +8,6 @@ namespace AuthenticationAPI.Domain.Entities
         public string? Name { get; set; }
         public string? Email { get; set; }
         public string? Password { get; set; }
-        public string? Role { get; set; }
+        public RoleType Role { get; set; }
     }
 }

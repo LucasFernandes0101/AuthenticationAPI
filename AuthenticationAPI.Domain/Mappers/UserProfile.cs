@@ -15,7 +15,6 @@ namespace AuthenticationAPI.Domain.Mappers
                 .ForMember(x => x.ChangedAt, opt => opt.MapFrom(src => src.ChangedAt))
                 .ForMember(x => x.Name, opt => opt.MapFrom(src => src.Name))
                 .ForMember(x => x.Email, opt => opt.MapFrom(src => src.Email))
-                .ForMember(x => x.Password, opt => opt.MapFrom(src => src.Password))
                 .ForMember(x => x.Role, opt => opt.MapFrom(src => src.Role));
 
             CreateMap<UserViewModel, User>()
@@ -25,7 +24,6 @@ namespace AuthenticationAPI.Domain.Mappers
                 .ForMember(x => x.ChangedAt, opt => opt.MapFrom(src => src.ChangedAt))
                 .ForMember(x => x.Name, opt => opt.MapFrom(src => src.Name))
                 .ForMember(x => x.Email, opt => opt.MapFrom(src => src.Email))
-                .ForMember(x => x.Password, opt => opt.MapFrom(src => src.Password))
                 .ForMember(x => x.Role, opt => opt.MapFrom(src => src.Role));
         }
     }

@@ -1,13 +1,5 @@
 ﻿{
   "$schema": "https://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:4862",
-      "sslPort": 44305
-    }
-  },
   "profiles": {
     "AuthenticationAPI": {
       "commandName": "Project",
@@ -16,15 +8,11 @@
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7017;http://localhost:5017",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "TOKEN_VAULTSHARP": "hvs.xkJ5qF5l6hBR5719PGQgV0IK",
+        "URL_VAULTSHARP": "http://localhost:8200",
+        "KEY_JWT": "SgVkYp3s6v8y/B?E(H+MbQeThWmZq4t7w!z$C&F)J@NcRfUjXn2r5u8x/A?D*G-K",
+        "AuthenticationAPIConnectionString": "Integrated Security=SSPI;Persist Security Info=False;MultipleActiveResultSets=true;Initial Catalog=AuthenticationAPI;Encrypt=True;TrustServerCertificate=True;"
       }
     }
   }
